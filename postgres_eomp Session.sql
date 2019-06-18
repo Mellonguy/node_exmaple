@@ -1,0 +1,1 @@
+select * from ifts.adtn_prod_lst;
