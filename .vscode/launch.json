@@ -7,8 +7,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "node_react_blog",
-            "program": "${workspaceFolder}/index.js"
+            "name": "node_connect",
+            "program": "${workspaceFolder}/tui_test.js"
         }
     ]
 }
