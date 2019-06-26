@@ -26,7 +26,7 @@ router.get('/', function(request, response, next) {
     query.on('end', function(row,err) { 
         response.render('data', { title: 'Express', data:rows }); 
         client.end();
-    }); 
+    });  
  
     query.on('error', function(error) { 
         console.log("ERROR!!" + error); 
